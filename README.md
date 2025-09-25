@@ -22,6 +22,8 @@ TestBanking.java
 运行 TestBanking 类，检查输出是否符合预期。
 若出现编译错误，检查包名、类名、语法是否正确。
 可通过调试模式逐步执行，理解对象创建和方法调用的流程。
+<img width="519" height="593" alt="image" src="https://github.com/user-attachments/assets/c4a49bee-0aa9-44fc-83e2-b7c199164a3c" />
+
 
 三、类的设计分析
 1. Account 类
