@@ -9,7 +9,7 @@
 二、实验方法
 1. 实验环境准备
 使用  VS Code。
-确保已安装 JDK（建议 JDK 8 或以上版本）。
+确保已安装 JDK
 2. 代码组织步骤
 创建一个 Java 项目，命名为 BankingSystem。
 在项目中创建包（package）名为 banking。
