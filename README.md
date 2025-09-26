@@ -1,12 +1,12 @@
 # java-Experiment-One
-#一、实验目的
+# 一、实验目的
 1. 基本掌握本人所选择的集成开发工具的使用方法；
 2. 利用给出的指定源代码，在开发工具中组织、初步理解并运行；
 3. 理解、掌握创建包的方法；
 4. 初步了解类的实例化方法；
 5. 在本人实验代码平台撰写 readme 报告，对类进行分析，描写实验过程。
 
-#二、实验方法
+# 二、实验方法
 1. 实验环境准备
 使用  VS Code。
 确保已安装 JDK
@@ -25,7 +25,7 @@ TestBanking.java
 <img width="519" height="593" alt="image" src="https://github.com/user-attachments/assets/c4a49bee-0aa9-44fc-83e2-b7c199164a3c" />
 
 
-#三、类的设计分析
+# 三、类的设计分析
 1. Account 类
 职责：模拟银行账户的基本操作。
 属性：
@@ -51,10 +51,10 @@ main(String[] args)：程序入口，创建客户和账户，执行一系列交�
 4. 类之间的关系
 Customer 类中包含一个 Account 类型的成员变量，体现组合关系。
 TestBanking 类通过创建 Customer 和 Account 对象，模拟业务逻辑流程。
-#四、程序调试及运行结果
+# 四、程序调试及运行结果
 <img width="2559" height="1522" alt="image" src="https://github.com/user-attachments/assets/e728dc64-817c-4c64-bf67-9d07b37fa4f7" />
 
-#五、实验感想
+# 五、实验感想
 
 通过本次实验，我初步掌握了以下内容：
 Java 包的使用：理解了包的作用在于组织类、避免命名冲突，并通过 package 和 import 语句实现模块化管理。
