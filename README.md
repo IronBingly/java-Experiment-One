@@ -26,7 +26,7 @@ TestBanking.java
 
 
 # 三、类的设计分析
-1. Account 类**
+1. Account 类
 职责：模拟银行账户的基本操作。
 属性：
 balance：账户余额（private double）。
@@ -35,7 +35,7 @@ Account(double bal)：构造方法，初始化余额。
 getBalance()：获取当前余额。
 deposit(double amount)：存款方法，返回操作成功标志。
 withdraw(double amount)：取款方法，若余额不足则失败。
-2. Customer 类**
+2. Customer 类
 职责：表示银行客户，关联一个账户。
 属性：
 firstName、lastName：客户姓名（private String）。
@@ -44,7 +44,7 @@ account：客户持有的账户（private Account）。
 构造方法初始化姓名。
 getAccount() / setAccount(Account acct)：用于关联账户。
 getFirstName() / getLastName()：获取姓名。
-3. TestBanking 类**
+3. TestBanking 类
 职责：测试类，模拟客户开户、存款、取款等业务流程。
 方法：
 main(String[] args)：程序入口，创建客户和账户，执行一系列交易并输出结果。
